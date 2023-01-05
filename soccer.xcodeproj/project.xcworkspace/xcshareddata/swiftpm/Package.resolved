@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "estabbarcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/eggswift/ESTabBarController",
+      "state" : {
+        "revision" : "93a30b833a05fd916c6d4c5d6e94a270cf3b6636",
+        "version" : "2.9.0"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "d06df9adf50ed8cde5786d935836a5f445f780ba",
+        "version" : "6.3.1"
+      }
+    }
+  ],
+  "version" : 2
+}
