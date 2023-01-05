@@ -20,7 +20,6 @@
 		5B87EF502955C6BA000AA344 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87EF4F2955C6BA000AA344 /* Team.swift */; };
 		5B87EF562955CA7A000AA344 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87EF552955CA7A000AA344 /* Data.swift */; };
 		5B87EF602955F329000AA344 /* TeamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B87EF5F2955F329000AA344 /* TeamRow.swift */; };
-		5BD16306295EDED40093B84F /* share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD16305295EDED40093B84F /* share.swift */; };
 		5BD1630B295EE8380093B84F /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD1630A295EE8380093B84F /* StoreView.swift */; };
 		5BD16318295EF4140093B84F /* ESTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 5BD16317295EF4140093B84F /* ESTabBarController */; };
 		5BD16322295EFB920093B84F /* Saver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD16321295EFB920093B84F /* Saver.swift */; };
@@ -51,7 +50,6 @@
 		5B87EF4F2955C6BA000AA344 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		5B87EF552955CA7A000AA344 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		5B87EF5F2955F329000AA344 /* TeamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRow.swift; sourceTree = "<group>"; };
-		5BD16305295EDED40093B84F /* share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = share.swift; sourceTree = "<group>"; };
 		5BD1630A295EE8380093B84F /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		5BD16321295EFB920093B84F /* Saver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saver.swift; sourceTree = "<group>"; };
 		5BD16326296430080093B84F /* StoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRow.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				5BD1631D295EFAF00093B84F /* team */,
 				5BD16320295EFB3C0093B84F /* love */,
 				5BD16329296435280093B84F /* Store */,
-				5BD16305295EDED40093B84F /* share.swift */,
 				5B87EF552955CA7A000AA344 /* Data.swift */,
 				5B374D712951DB5C008549B6 /* Assets.xcassets */,
 				5B374D732951DB5C008549B6 /* Preview Content */,
@@ -264,7 +261,6 @@
 				5B87EF562955CA7A000AA344 /* Data.swift in Sources */,
 				5B1F4DA52956C60A00A5A9BD /* TeamTable.swift in Sources */,
 				5BF30A922956FC8300279B6C /* TeamDetail.swift in Sources */,
-				5BD16306295EDED40093B84F /* share.swift in Sources */,
 				5BD1630B295EE8380093B84F /* StoreView.swift in Sources */,
 				5B374D832951E5DF008549B6 /* LoginView.swift in Sources */,
 				5B87EF4C2955C5CF000AA344 /* MatchList.swift in Sources */,

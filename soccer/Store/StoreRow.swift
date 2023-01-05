@@ -10,11 +10,19 @@ import SwiftUI
 struct StoreRow: View {
     @EnvironmentObject var saver: Saver
     var item: Stored
+    private let url = URL(string:"https://github.com/xut4/FIFA")
     var body: some View {
         HStack{
             Text(item.fname + "♡" + item.sname)
             Spacer()
             Text(item.per + "%")
+            if #available(iOS 16.0, *) {
+                ShareLink(item: item.fname + "♡" + item.sname + ":" + item.per + "%") {
+                    Image( systemName: "square.and.arrow.up")
+                }
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
 }
